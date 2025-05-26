@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+button:hover {
+  cursor: pointer
+}
+
+div.relative.flex.items-center {
+  margin-left: 0.5rem;
+}
