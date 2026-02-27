@@ -36,6 +36,14 @@ It **fetches the file system structure data from the API server** and uses it to
 To set up and run the Virtual File System Client locally, follow these steps:
 
 - Clone the repository: ```git clone https://github.com/armir-eng/virtual-file-system-ui```
+
 - Navigate to the project directory: ```cd virtual-file-system-ui```
+
+- Create the ```.env``` file out of ```.env.example```:
+  - Apply the command: ```cp .env.example .env```
+  - Set the real value of ```VITE_API_URL```
+    - For development testing mode: ```http://localhost:8080``` (corresponding the documented port in the API's repository)
+    - For production deployment, set the domain name chosen for the API: I.e: ```https://virtual-file-system-api.armir.io``` 
+
 - Install the dependencies: ```npm install```
 - Start the development server: ```npm start```
