@@ -18,6 +18,6 @@ RUN npm run build
 # Install a lightweight static file server
 RUN npm install -g serve
 
-EXPOSE 8080
+EXPOSE 8081
 
 CMD ["serve", "-s", "dist", "-l", "8081"]
