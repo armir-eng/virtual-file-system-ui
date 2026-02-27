@@ -24,7 +24,7 @@ It **fetches the file system structure data from the API server** and uses it to
   - `DetailsPanel`: Displays details of the selected file or directory.
   - `FileContentArea`: Allows editing the content of files.
 
-- Lucid-React library is utilized for the icon components.
+- Lucide-React library is utilized for the icon components.
 
 ### Rooms for improvement
 - Implementation of the search functionality to find files or directories is found hard to implement, due to:
